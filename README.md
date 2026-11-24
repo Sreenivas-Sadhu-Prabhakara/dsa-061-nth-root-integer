@@ -12,6 +12,13 @@ xⁿ is strictly increasing in x, so the candidate space 1..m is monotone — bi
 
 **Complexity:** O(n · log m) time, O(1) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
